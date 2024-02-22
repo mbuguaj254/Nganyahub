@@ -17,12 +17,12 @@ const Navbar = () => {
                     height={18}
                     className="object-contain"
                 />
-                <p className="font-bold text-[20px]">Nganya Hub</p>
+                {/* <p className="font-bold text-[20px]">Nganya Hub</p> */}
             </Link>
             <CustomButton
                 title="Sign In"
                 btn-type="button"
-                containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
+                containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]'
 
             />
         </nav>
